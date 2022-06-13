@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+ 
+}
+
+.formLabel,
+.formInput {
+  margin-bottom: 5px;
+}
+
+.formInput {
+  width: 200px;
+  padding: 5px;
+  font-size: 14px;
+
+  border-radius: 5px;
+  border: 1px grey solid;
+}
+
+.formInput:hover {
+  border: 1px skyblue solid;
+}
+
+.formBtn {
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100px;
+  border: none;
+  padding: 5px 10px;
+
+  font-size: 14px;
+
+  background-color: white;
+  color: #212121;
+  border: #212121 0.5px solid;
+  border-radius: 5px;
+}
