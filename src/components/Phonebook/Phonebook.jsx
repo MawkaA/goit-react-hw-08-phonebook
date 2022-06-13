@@ -55,7 +55,7 @@ const Phonebook = () => {
     <div className={styles.container}>
       <NewUserForm onSubmit={addContact} isLoading={isFetching} />
       <Filter handleChange={setFilter} />
-      {isLoading && <Loader/>}
+      {isLoading && <Loader color="#000000" />}
       {showContent()}
       {isSuccess && !isPrevSuccess.current && showToast()}
       {isError && <ShowErrorNotification msg={errorMsg} />}
